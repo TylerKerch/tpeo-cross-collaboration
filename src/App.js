@@ -6,6 +6,7 @@ function App() {
 
   function zero() {
     //0
+    setValue(0);
   }
 
   function add() {
@@ -82,7 +83,7 @@ function App() {
       </div>
       <div className="Footer">
         <h1>
-          Created by
+          Created by Tyler Kerch
         </h1>
       </div>
     </div> 
