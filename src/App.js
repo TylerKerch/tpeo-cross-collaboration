@@ -19,6 +19,7 @@ function App() {
 
   function multiply() {
     //3
+    setValue(value*2);
   }
 
   function divide() {
