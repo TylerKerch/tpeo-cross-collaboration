@@ -9,6 +9,7 @@ function App() {
   }
 
   function add() {
+    setValue(value + 1);
     //1
   }
 
@@ -38,6 +39,9 @@ function App() {
 
   function root() {
     //8
+    //Aarushi
+    setValue(Math.sqrt(value));
+    
   }
 
   function inverse() {
