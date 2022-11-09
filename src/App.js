@@ -5,11 +5,11 @@ function App() {
   const[value, setValue] = useState(0);
 
   function zero() {
-    //0
+    setValue(0); //0
   }
 
   function add() {
-    //1
+    setValue(value + 1); //1npm
   }
 
   function subtract() {
