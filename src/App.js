@@ -46,8 +46,8 @@ function App() {
   }
 
   function changeSigns() {
+    //10 - Aaryan Sagar
     setValue(-1 * value);
-    //10
   }
 
   function random() {
@@ -82,7 +82,7 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>Created by Aaryan Sagar</h1>
+        <h1>Created by Tyler Kerch, Aaryan Sagar</h1>
       </div>
     </div>
   );
