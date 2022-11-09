@@ -1,51 +1,64 @@
-import './App.css';
-import {Fragment, useState} from "react";
+import "./App.css";
+import { Fragment, useState } from "react";
 
 function App() {
-  const[value, setValue] = useState(0);
+  const [value, setValue] = useState(0);
 
   function zero() {
     setValue(0); //0
   }
 
   function add() {
-    setValue(value + 1); //1npm
+    setValue(value + 1);
+    //1
   }
 
   function subtract() {
-    //2
+    setValue(value - 1);
   }
 
   function multiply() {
     //3
+    setValue(value*2);
   }
 
   function divide() {
     //4
+    //Zhuoli
+    setValue(value / 2);
   }
 
   function remainder() {
+    //Justin Sasek
+    setValue(value % 2);
     //5
   }
 
   function square() {
-    //6
+    //6: Rohan Patel
+    setValue(value * value);
   }
 
   function cube() {
     //7
+    setValue(value ^ 3);
   }
 
   function root() {
     //8
+    //Aarushi
+    setValue(Math.sqrt(value));
+    
   }
 
   function inverse() {
     //9
+    setValue(1/value);
   }
 
   function changeSigns() {
-    //10
+    //10 - Aaryan Sagar
+    setValue(-1 * value);
   }
 
   function random() {
@@ -53,7 +66,7 @@ function App() {
   }
 
   function setNumber(event) {
-    if(!isNaN(event.target.value)){
+    if (!isNaN(event.target.value)) {
       setValue(event.target.value);
     }
   }
@@ -62,8 +75,7 @@ function App() {
     <div>
       <div className="App">
         <header className="header">
-          <input type="text" value={value} onChange={setNumber}>
-          </input>
+          <input type="text" value={value} onChange={setNumber}></input>
         </header>
         <div className="grid-container">
           <button onClick={zero}>Set To 0</button>
@@ -81,11 +93,10 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>
-          Created by
+          Created by Aaryan Sagar, Nayeon Kim, Zhuoli Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
         </h1>
       </div>
-    </div> 
+    </div>
   );
 }
 
