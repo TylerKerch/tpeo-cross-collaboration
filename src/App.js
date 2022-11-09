@@ -19,6 +19,7 @@ function App() {
 
   function multiply() {
     //3
+    setValue(value*2);
   }
 
   function divide() {
@@ -87,7 +88,7 @@ function App() {
       </div>
       <div className="Footer">
         <h1>
-          Created by Arushi, Emerald Zhang & Tyler Kerch
+          Created by Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
         </h1>
       </div>
     </div>
