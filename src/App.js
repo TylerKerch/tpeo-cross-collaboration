@@ -25,6 +25,8 @@ function App() {
   }
 
   function remainder() {
+    //Justin Sasek
+    setValue(value % 2);
     //5
   }
 
