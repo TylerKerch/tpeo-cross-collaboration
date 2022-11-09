@@ -5,7 +5,6 @@ function App() {
   const [value, setValue] = useState(0);
 
   function zero() {
-    //0
     setValue(0);
   }
 
@@ -14,7 +13,7 @@ function App() {
   }
 
   function subtract() {
-    //2
+    setValue(value - 1);
   }
 
   function multiply() {
@@ -83,7 +82,9 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>Created by Tyler Kerch</h1>
+        <h1>
+          Created by Emerald Zhang & Tyler Kerch
+        </h1>
       </div>
     </div>
   );
