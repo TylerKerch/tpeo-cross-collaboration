@@ -86,7 +86,7 @@ function App() {
       </div>
       <div className="Footer">
         <h1>
-          Created by
+          Created by Aarushi
         </h1>
       </div>
     </div> 
