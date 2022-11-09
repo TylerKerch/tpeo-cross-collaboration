@@ -51,8 +51,7 @@ function App() {
 
   function inverse() {
     //9
-    //Zhuoli
-    setValue(1 / value);
+    setValue(1/value);
   }
 
   function changeSigns() {
@@ -92,7 +91,7 @@ function App() {
       </div>
       <div className="Footer">
         <h1>
-          Created by Vincent Do, Arushi, Zhuoli Xie, Emerald Zhang & Tyler Kerch
+          Created by Zhuoli Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
         </h1>
       </div>
     </div>
