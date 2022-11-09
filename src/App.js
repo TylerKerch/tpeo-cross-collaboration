@@ -82,7 +82,7 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>Created by Tyler Kerch</h1>
+        <h1>Created by Tyler Kerch and Vincent Do</h1>
       </div>
     </div>
   );
