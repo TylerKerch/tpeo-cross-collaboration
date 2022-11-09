@@ -31,7 +31,8 @@ function App() {
   }
 
   function square() {
-    //6
+    //6: Rohan Patel
+    setValue(value * value);
   }
 
   function cube() {
