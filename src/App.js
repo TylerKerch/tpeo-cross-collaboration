@@ -5,7 +5,7 @@ function App() {
   const [value, setValue] = useState(0);
 
   function zero() {
-    setValue(0);
+    setValue(0); //0
   }
 
   function add() {
