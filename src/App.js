@@ -42,7 +42,7 @@ function App() {
   }
 
   function inverse() {
-    //9
+    setValue(1 / value);
   }
 
   function changeSigns() {
