@@ -5,7 +5,7 @@ function App() {
   const [value, setValue] = useState(0);
 
   function zero() {
-    setValue(0); //0
+    setValue(0);
   }
 
   function add() {
@@ -19,7 +19,7 @@ function App() {
 
   function multiply() {
     //3
-    setValue(value*2);
+    setValue(value * 2);
   }
 
   function divide() {
@@ -41,19 +41,18 @@ function App() {
 
   function cube() {
     //7
-    setValue(value ^ 3);
+    setValue(Math.pow(value, 3));
   }
 
   function root() {
     //8
     //Aarushi
     setValue(Math.sqrt(value));
-    
   }
 
   function inverse() {
     //9
-    setValue(1/value);
+    setValue(1 / value);
   }
 
   function changeSigns() {
@@ -93,7 +92,9 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-          Created by Aaryan Sagar, Nayeon Kim, Zhuoli Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
+        <h1>
+          Created by Conny Cai, Rohan Patel, Aaryan Sagar, Nayeon Kim, Zhuoli
+          Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
         </h1>
       </div>
     </div>
