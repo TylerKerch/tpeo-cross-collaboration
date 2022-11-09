@@ -1,11 +1,12 @@
-import './App.css';
-import {Fragment, useState} from "react";
+import "./App.css";
+import { Fragment, useState } from "react";
 
 function App() {
-  const[value, setValue] = useState(0);
+  const [value, setValue] = useState(0);
 
   function zero() {
     //0
+    setValue(0);
   }
 
   function add() {
@@ -53,7 +54,7 @@ function App() {
   }
 
   function setNumber(event) {
-    if(!isNaN(event.target.value)){
+    if (!isNaN(event.target.value)) {
       setValue(event.target.value);
     }
   }
@@ -62,8 +63,7 @@ function App() {
     <div>
       <div className="App">
         <header className="header">
-          <input type="text" value={value} onChange={setNumber}>
-          </input>
+          <input type="text" value={value} onChange={setNumber}></input>
         </header>
         <div className="grid-container">
           <button onClick={zero}>Set To 0</button>
@@ -81,11 +81,9 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>
-          Created by
-        </h1>
+        <h1>Created by Tyler Kerch</h1>
       </div>
-    </div> 
+    </div>
   );
 }
 
