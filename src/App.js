@@ -21,7 +21,7 @@ function App() {
   }
 
   function divide() {
-    //4
+    setValue(value / 2);
   }
 
   function remainder() {
