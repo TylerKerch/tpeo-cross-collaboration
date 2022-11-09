@@ -56,7 +56,8 @@ function App() {
   }
 
   function changeSigns() {
-    //10
+    //10 - Aaryan Sagar
+    setValue(-1 * value);
   }
 
   function random() {
@@ -91,8 +92,7 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>
-          Created by Nayeon Kim, Zhuoli Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
+          Created by Aaryan Sagar, Nayeon Kim, Zhuoli Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
         </h1>
       </div>
     </div>
