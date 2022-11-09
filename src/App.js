@@ -5,16 +5,16 @@ function App() {
   const [value, setValue] = useState(0);
 
   function zero() {
-    //0
     setValue(0);
   }
 
   function add() {
+    setValue(value + 1);
     //1
   }
 
   function subtract() {
-    //2
+    setValue(value - 1);
   }
 
   function multiply() {
@@ -27,6 +27,8 @@ function App() {
   }
 
   function remainder() {
+    //Justin Sasek
+    setValue(value % 2);
     //5
   }
 
@@ -40,6 +42,9 @@ function App() {
 
   function root() {
     //8
+    //Aarushi
+    setValue(Math.sqrt(value));
+    
   }
 
   function inverse() {
@@ -82,7 +87,9 @@ function App() {
         </div>
       </div>
       <div className="Footer">
-        <h1>Created by Tyler Kerch and Vincent Do</h1>
+        <h1>
+          Created by Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
+        </h1>
       </div>
     </div>
   );
