@@ -24,6 +24,8 @@ function App() {
 
   function divide() {
     //4
+    //Zhuoli
+    setValue(value / 2);
   }
 
   function remainder() {
@@ -89,7 +91,7 @@ function App() {
       </div>
       <div className="Footer">
         <h1>
-          Created by Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
+          Created by Zhuoli Xie, Sarayu Chebbi, Vincent Do, Arushi, Emerald Zhang & Tyler Kerch
         </h1>
       </div>
     </div>
