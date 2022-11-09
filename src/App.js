@@ -46,6 +46,7 @@ function App() {
   }
 
   function changeSigns() {
+    setValue(-1 * value);
     //10
   }
 
